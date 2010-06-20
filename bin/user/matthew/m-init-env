@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+$IH/bin/ih-init-env
+
+cd ~
+
+ln -sf $IH/bin/user/matthew/.bashrc
+ln -sf $IH/bin/user/matthew/.emacs_custom
+ln -sf $IH/bin/user/matthew/.hgrc
+
+cd - >/dev/null

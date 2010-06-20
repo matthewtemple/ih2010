@@ -1,0 +1,5 @@
+#!/bin/bash
+
+HOSTNAME=`hostname`
+USERNAME=`whoami`
+crontab -l > ~/ih/bin/user/$USERNAME/cron/crontab.$HOSTNAME

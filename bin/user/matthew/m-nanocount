@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+$GOT = `wc -w things_said_in_dreams.tex | cut -f1 -d" "`;
+chomp($GOT);
+$DATE = `date +%d`;
+$NEED = $DATE * 2000;
+$DELTA = $NEED - $GOT;
+print("have $GOT\nneed $DELTA\n");

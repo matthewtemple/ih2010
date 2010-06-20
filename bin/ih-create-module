@@ -1,0 +1,17 @@
+#!/bin/sh
+
+PROJECT=$1
+SYSTEM=$2
+MODULE=$3
+
+IH=$IH
+
+cp $IH/bin/template/module.h.template $MODULE.h
+cp $IH/bin/template/module.c.template $MODULE.c
+cp $IH/bin/template/module.test.c.template ${MODULE}.test.c
+
+perl -p -i -e "s/project/$PROJECT/g" $MODULE.h $MODULE.c ${MODULE}.test.c
+perl -p -i -e "s/system/$SYSTEM/g" $MODULE.h $MODULE.c ${MODULE}.test.c
+perl -p -i -e "s/module/$MODULE/g" $MODULE.h $MODULE.c ${MODULE}.test.c
+
+hg add $MODULE.h $MODULE.c ${MODULE}.test.c

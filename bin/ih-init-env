@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+echo "setting up environment-related symlinks"
+cd
+ln -sf $IH/bin/.bash_logout
+ln -sf $IH/bin/.bash_profile
+ln -sf $IH/bin/.emacs
+ln -sf $IH/bin/.emacs_ih
+ln -sf $IH/bin/.emacs_ih_abbrevs
+ln -sf $IH/bin/.vimrc
+$IH/bin/ih-init-dev-env
+cd - >/dev/null
+
+CRONTAB=`crontab -l 2>/dev/null`
+if [ "" == "$CRONTAB" ]; then
+        echo "installing standard crontab"
+        crontab $IH/bin/ih_crontab_standard
+else
+        echo "there's already a crontab; leaving crontab alone"
+fi

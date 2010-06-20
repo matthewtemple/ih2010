@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "" > /tmp/book.$$.c
+find . -name "*.[c,h]" -print | sort > /tmp/files.$$
+FILES=`cat /tmp/files.$$`
+rm /tmp/files.$$
+for FILE in $FILES; do
+    cbanner-file $FILE >> /tmp/book.$$.c
+done
+mv /tmp/book.$$.c book.c
+a2ps -o book.ps --landscape --columns=3 --border=yes --tabsize=4 --line-numbers=1 --chars-per-line=80 --margin=0 book.c
+rm book.c
+ps2pdf book.ps
+rm book.ps

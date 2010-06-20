@@ -1,0 +1,21 @@
+(global-set-key "\C-b" 'electric-buffer-list)
+(global-set-key "\C-f" 'find-file)
+(global-set-key "\C-j" 'indent-region)
+(global-set-key "\C-t" 'goto-line)
+(global-set-key "\C-v" 'other-window)
+(global-set-key "\M-#" 'tags-query-replace)
+(global-set-key "\M-s" 'tags-search)
+
+(setq inhibit-startup-message 1)
+(menu-bar-mode 0)
+(setq transient-mark-mode t)
+(global-font-lock-mode 0)
+(normal-erase-is-backspace-mode 0)
+(setq ih-use-abbrevs 't)
+(add-hook 'c-mode-common-hook
+          (lambda () (c-toggle-auto-hungry-state 1)))
+
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+
+(keyboard-translate ?\C-h ?\C-?)

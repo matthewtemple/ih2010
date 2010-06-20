@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATTERN=$1
+
+FILES=`find . -name "$PATTERN"`
+emacs $FILES

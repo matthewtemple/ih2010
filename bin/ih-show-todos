@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find . -name "*.[h,c]" -exec ih-show-todos-in-file {} \;

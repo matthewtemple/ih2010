@@ -1,0 +1,1 @@
+rsync -avz -e ssh --delete --exclude "pictures" /home/matthew .

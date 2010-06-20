@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo apt-get install apt-file bc cron doxygen doxygen-doc gcc gdb emacs git-core git-arch git-cvs git-daemon-run git-doc git-email git-gui git-svn gitk gitweb global graphviz graphviz-dev language-support-en libc6-dev libjpeg62-dev libncurses5 libncurses5-dev libpq-dev libssl-dev libx11-dev make man manpages manpages-dev r-base r-base-dev rsync screen subversion unzip uuid-dev valgrind xutils-dev zip fuse-utils libfuse-dev libfuse2

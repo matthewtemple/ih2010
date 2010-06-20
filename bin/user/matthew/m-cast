@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DIR=$1
+TIMESTAMP=`ih-timestamp`
+ARCHIVE=${DIR}_$TIMESTAMP.tgz
+
+tar -czvf $ARCHIVE $DIR
+gpg --encrypt --recipient "Matthew Van Temple" $ARCHIVE
+rm $ARCHIVE

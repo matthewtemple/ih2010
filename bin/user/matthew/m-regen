@@ -1,0 +1,4 @@
+pdflatex things_said_in_dreams.tex
+rm things_said_in_dreams.aux
+rm things_said_in_dreams.log
+evince things_said_in_dreams.pdf

@@ -1,0 +1,108 @@
+
+# DO NOT DELETE
+
+constants.o: /home/matthew/c/h/core/tools.h /home/matthew/c/h/core/bit.h
+constants.o: /home/matthew/c/h/core/object.h /home/matthew/c/h/core/bool.h
+constants.o: /home/matthew/c/h/core/declarations.h
+constants.o: /home/matthew/c/h/core/types.h
+constants.o: /home/matthew/c/h/external/external.h /usr/include/arpa/inet.h
+constants.o: /usr/include/features.h /usr/include/sys/cdefs.h
+constants.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+constants.o: /usr/include/gnu/stubs-32.h /usr/include/netinet/in.h
+constants.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+constants.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+constants.o: /usr/include/sys/types.h /usr/include/bits/types.h
+constants.o: /usr/include/bits/typesizes.h /usr/include/time.h
+constants.o: /usr/include/endian.h /usr/include/bits/endian.h
+constants.o: /usr/include/sys/select.h /usr/include/bits/select.h
+constants.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+constants.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+constants.o: /usr/include/bits/uio.h /usr/include/bits/socket.h
+constants.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+constants.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+constants.o: /usr/include/bits/posix2_lim.h /usr/include/bits/sockaddr.h
+constants.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+constants.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+constants.o: /usr/include/assert.h /usr/include/ctype.h /usr/include/dirent.h
+constants.o: /usr/include/bits/dirent.h /usr/include/fcntl.h
+constants.o: /usr/include/bits/fcntl.h /usr/include/postgresql/libpq-fe.h
+constants.o: /usr/include/stdio.h /usr/include/libio.h
+constants.o: /usr/include/_G_config.h /usr/include/wchar.h
+constants.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+constants.o: /usr/include/postgresql/postgres_ext.h /usr/include/math.h
+constants.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+constants.o: /usr/include/bits/mathcalls.h /usr/include/ncurses.h
+constants.o: /usr/include/ncurses_dll.h /usr/include/unctrl.h
+constants.o: /usr/include/curses.h /usr/include/openssl/rand.h
+constants.o: /usr/include/stdlib.h /usr/include/alloca.h
+constants.o: /usr/include/openssl/ossl_typ.h /usr/include/openssl/e_os2.h
+constants.o: /usr/include/openssl/opensslconf.h /usr/include/pthread.h
+constants.o: /usr/include/sched.h /usr/include/bits/sched.h
+constants.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+constants.o: /usr/include/string.h /usr/include/sys/errno.h
+constants.o: /usr/include/errno.h /usr/include/bits/errno.h
+constants.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+constants.o: /usr/include/asm-generic/errno.h
+constants.o: /usr/include/asm-generic/errno-base.h /usr/include/sys/stat.h
+constants.o: /usr/include/bits/stat.h /usr/include/termios.h
+constants.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+constants.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+constants.o: /usr/include/bits/confname.h /usr/include/getopt.h
+constants.o: /usr/include/jpeglib.h /usr/include/jconfig.h
+constants.o: /usr/include/jmorecfg.h /home/matthew/c/ih/core/constants.h
+constants.o: /home/matthew/c/ih/external/external.h
+constants_test.o: /home/matthew/c/ih/external/external.h
+constants_test.o: /home/matthew/c/ih/core/constants.h
+goal.o: /home/matthew/c/ih/core/goal.h /home/matthew/c/ih/external/external.h
+goal_test.o: /home/matthew/c/ih/external/external.h
+goal_test.o: /home/matthew/c/ih/core/goal.h
+tools.o: /home/matthew/c/h/core/tools.h /home/matthew/c/h/core/bit.h
+tools.o: /home/matthew/c/h/core/object.h /home/matthew/c/h/core/bool.h
+tools.o: /home/matthew/c/h/core/declarations.h /home/matthew/c/h/core/types.h
+tools.o: /home/matthew/c/h/external/external.h /usr/include/arpa/inet.h
+tools.o: /usr/include/features.h /usr/include/sys/cdefs.h
+tools.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+tools.o: /usr/include/gnu/stubs-32.h /usr/include/netinet/in.h
+tools.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tools.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+tools.o: /usr/include/sys/types.h /usr/include/bits/types.h
+tools.o: /usr/include/bits/typesizes.h /usr/include/time.h
+tools.o: /usr/include/endian.h /usr/include/bits/endian.h
+tools.o: /usr/include/sys/select.h /usr/include/bits/select.h
+tools.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+tools.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+tools.o: /usr/include/bits/uio.h /usr/include/bits/socket.h
+tools.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+tools.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+tools.o: /usr/include/bits/posix2_lim.h /usr/include/bits/sockaddr.h
+tools.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+tools.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+tools.o: /usr/include/assert.h /usr/include/ctype.h /usr/include/dirent.h
+tools.o: /usr/include/bits/dirent.h /usr/include/fcntl.h
+tools.o: /usr/include/bits/fcntl.h /usr/include/postgresql/libpq-fe.h
+tools.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+tools.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+tools.o: /usr/include/bits/sys_errlist.h
+tools.o: /usr/include/postgresql/postgres_ext.h /usr/include/math.h
+tools.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+tools.o: /usr/include/bits/mathcalls.h /usr/include/ncurses.h
+tools.o: /usr/include/ncurses_dll.h /usr/include/unctrl.h
+tools.o: /usr/include/curses.h /usr/include/openssl/rand.h
+tools.o: /usr/include/stdlib.h /usr/include/alloca.h
+tools.o: /usr/include/openssl/ossl_typ.h /usr/include/openssl/e_os2.h
+tools.o: /usr/include/openssl/opensslconf.h /usr/include/pthread.h
+tools.o: /usr/include/sched.h /usr/include/bits/sched.h /usr/include/signal.h
+tools.o: /usr/include/bits/setjmp.h /usr/include/string.h
+tools.o: /usr/include/sys/errno.h /usr/include/errno.h
+tools.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+tools.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+tools.o: /usr/include/asm-generic/errno-base.h /usr/include/sys/stat.h
+tools.o: /usr/include/bits/stat.h /usr/include/termios.h
+tools.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+tools.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+tools.o: /usr/include/bits/confname.h /usr/include/getopt.h
+tools.o: /usr/include/jpeglib.h /usr/include/jconfig.h
+tools.o: /usr/include/jmorecfg.h /home/matthew/c/ih/core/tools.h
+tools.o: /home/matthew/c/ih/external/external.h
+tools_test.o: /home/matthew/c/ih/external/external.h
+tools_test.o: /home/matthew/c/ih/core/tools.h

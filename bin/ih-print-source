@@ -1,0 +1,11 @@
+#!/bin/sh
+
+FILE=$1
+
+a2ps -o $FILE.ps --landscape --columns=2 --border=yes --tabsize=4 --line-numbers=1 --chars-per-line=80 --margin=0 $FILE
+ps2pdf $FILE.ps
+lpr -P printer $FILE.pdf
+rm $FILE.ps
+rm $FILE.pdf
+
+#evince $FILE.pdf

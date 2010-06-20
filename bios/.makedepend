@@ -1,0 +1,80 @@
+
+# DO NOT DELETE
+
+ocean.o: /usr/include/curses.h /usr/include/ncurses_dll.h
+ocean.o: /usr/include/stdio.h /usr/include/features.h
+ocean.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ocean.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h
+ocean.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ocean.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+ocean.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ocean.o: /usr/include/unctrl.h /usr/include/limits.h
+ocean.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+ocean.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+ocean.o: /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h
+ocean.o: /usr/include/endian.h /usr/include/bits/endian.h
+ocean.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ocean.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ocean.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ocean.o: /usr/include/alloca.h /usr/include/unistd.h
+ocean.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+ocean.o: /usr/include/getopt.h /usr/include/X11/Xlib.h /usr/include/X11/X.h
+ocean.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+ocean.o: /usr/include/jpeglib.h /usr/include/jconfig.h
+ocean.o: /usr/include/jmorecfg.h
+system.o: /home/matthew/c/h/core/random.h /home/matthew/c/h/core/tools.h
+system.o: /home/matthew/c/h/core/bit.h /home/matthew/c/h/core/object.h
+system.o: /home/matthew/c/h/core/bool.h /home/matthew/c/h/core/declarations.h
+system.o: /home/matthew/c/h/core/types.h
+system.o: /home/matthew/c/h/external/external.h /usr/include/arpa/inet.h
+system.o: /usr/include/features.h /usr/include/sys/cdefs.h
+system.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+system.o: /usr/include/gnu/stubs-32.h /usr/include/netinet/in.h
+system.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+system.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+system.o: /usr/include/sys/types.h /usr/include/bits/types.h
+system.o: /usr/include/bits/typesizes.h /usr/include/time.h
+system.o: /usr/include/endian.h /usr/include/bits/endian.h
+system.o: /usr/include/sys/select.h /usr/include/bits/select.h
+system.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+system.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+system.o: /usr/include/bits/uio.h /usr/include/bits/socket.h
+system.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+system.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+system.o: /usr/include/bits/posix2_lim.h /usr/include/bits/sockaddr.h
+system.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+system.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+system.o: /usr/include/assert.h /usr/include/ctype.h /usr/include/dirent.h
+system.o: /usr/include/bits/dirent.h /usr/include/fcntl.h
+system.o: /usr/include/bits/fcntl.h /usr/include/postgresql/libpq-fe.h
+system.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+system.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+system.o: /usr/include/bits/sys_errlist.h
+system.o: /usr/include/postgresql/postgres_ext.h /usr/include/math.h
+system.o: /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h
+system.o: /usr/include/bits/mathcalls.h /usr/include/ncurses.h
+system.o: /usr/include/ncurses_dll.h /usr/include/unctrl.h
+system.o: /usr/include/curses.h /usr/include/openssl/rand.h
+system.o: /usr/include/stdlib.h /usr/include/alloca.h
+system.o: /usr/include/openssl/ossl_typ.h /usr/include/openssl/e_os2.h
+system.o: /usr/include/openssl/opensslconf.h /usr/include/pthread.h
+system.o: /usr/include/sched.h /usr/include/bits/sched.h
+system.o: /usr/include/signal.h /usr/include/bits/setjmp.h
+system.o: /usr/include/string.h /usr/include/sys/errno.h /usr/include/errno.h
+system.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+system.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+system.o: /usr/include/asm-generic/errno-base.h /usr/include/sys/stat.h
+system.o: /usr/include/bits/stat.h /usr/include/termios.h
+system.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+system.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+system.o: /usr/include/bits/confname.h /usr/include/getopt.h
+system.o: /usr/include/jpeglib.h /usr/include/jconfig.h
+system.o: /usr/include/jmorecfg.h /home/matthew/c/ih/core/constants.h
+system.o: /home/matthew/c/ih/external/external.h
+system.o: /home/matthew/c/ih/bios/system.h /home/matthew/c/ih/core/core.h
+system.o: /home/matthew/c/ih/core/goal.h /home/matthew/c/ih/core/tools.h
+system_test.o: /home/matthew/c/ih/external/external.h
+system_test.o: /home/matthew/c/ih/bios/system.h
+system_test.o: /home/matthew/c/ih/core/core.h
+system_test.o: /home/matthew/c/ih/core/constants.h
+system_test.o: /home/matthew/c/ih/core/goal.h /home/matthew/c/ih/core/tools.h

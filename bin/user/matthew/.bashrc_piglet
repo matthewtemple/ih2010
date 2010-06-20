@@ -1,0 +1,2 @@
+export IH_C_STANDARD_INCLUDE_DIR=/usr/lib/gcc/i486-linux-gnu/4.2.4/include
+export IH_POSTGRESQL_INCLUDE_DIR=/usr/include/postgresql

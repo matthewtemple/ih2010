@@ -1,0 +1,5 @@
+#!/bin/sh
+
+URL=$1
+
+wget -m -np -k -K -E $URL

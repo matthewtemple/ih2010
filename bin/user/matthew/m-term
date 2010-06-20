@@ -1,0 +1,29 @@
+#!/bin/bash
+
+TERM=`which xterm`
+LIGHT="-fg black -bg snow"
+DARK="-fg white -bg black"
+DIM="80x40"
+FONT="-fn 9x15"
+SCROLL="-sb -sl 32768"
+#SCROLL="+sb"
+CURSOR_LIGHT="-cr red"
+CURSOR_DARK="-cr red"
+
+if [ "$1" == "standard0" ]; then
+	exec $TERM -ls $LIGHT -geometry $DIM+115+49 $FONT $SCROLL $CURSOR_LIGHT
+fi
+
+if [ "$1" == "dark" ]; then
+	exec $TERM -ls $DARK -geometry $DIM $FONT $SCROLL $CURSOR_DARK
+fi
+
+if [ "$1" == "largeprint" ]; then
+	exec $TERM -ls $LIGHT -geometry 80x40 -fn 10x20 $SCROLL $CURSOR_LIGHT
+fi
+
+if [ "$1" == "irssi" ]; then
+	exec $TERM -ls $DARK -geometry 80x40+6+392 $FONT $SCROLL $CURSOR_DARK
+fi
+
+exec $TERM -ls $LIGHT -geometry $DIM $FONT $SCROLL $CURSOR_LIGHT
